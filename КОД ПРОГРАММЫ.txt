@@ -1,0 +1,13 @@
+var a;
+var b;
+
+void OnStart()
+{
+    a = 3; b = 5;
+}
+
+void A(int a, int b)
+{
+    var c = a + b;
+    Message("C = " + c.ToString());
+}
